@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>initial-workshop</title>
+</head>
+
+<body>
+    <h1>HTML Challenge I</h1>
+    <p>Reproduce the patterns presented below.</p>
+    <p>Don't forget to indent your code.</p>
+    <p>Use the W3C validator to ensure the quality of your code !</p>
+    <p>Side question: what is the w3c ?</p>
+    <hr>
+    <h2>Iteration 1 - Inline vs block elements</h2>
+    <p>
+        <span>HTML</span> <em>(HyperText Markup Language)</em> is the most basic building block of the <span>Web</span>.
+        It defines the meaning and <em>structure</em> of web content.<br>
+        <img src="https://via.placeholder.com/150" alt="any image...">
+        Pick Other technologies besides <span>HTML</span> are
+        generally used to describe a web page's appearance/presentation<span>(CSS)<span> or functionality/behavior
+                <span>(JavaScript)</span>
+    </p>
+    <ol>
+        <li>Open visual studio code</li>
+        <li>Launch a terminal window</li>
+        <li>Open your browser</li>
+        <li>Open devtools</li>
+        <li>Start coding awesome apps</li>
+    </ol>
+    <hr>
+    <h2>Iteration 3 - Simple table</h2>
+    <table cellspacing="5" cellpadding="0" id="simple">
+        <tr>
+            <td>Ace</td>
+            <td class="red">Diamond</td>
+        </tr>
+        <tr>
+            <td class="red">Heart</td>
+            <td>Spade</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Iteration 4 - Nested list</h2>
+    <ol>
+        <li>level 1.1</li>
+        <li>level 1.2</li>
+        <ul>
+            <li>level 2.1</li>
+            <ol>
+                <li>level 3.1</li>
+                <li>level 3.2</li>
+                <li>level 3.3</li>
+            </ol>
+            <li>level 2.2</li>
+            <li>level 2.3</li>
+        </ul>
+        <li>level 1.3</li>
+    </ol>
+    <hr>
+    <h2>Bonus 1 - A more complex table</h2>
+    <table cellspacing="0" cellpadding="0">
+        <thead>
+            <tr>
+                <th colspan="2"></th>
+                <th colspan="2">first group</th>
+                <th colspan="2">second group</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Person</th>
+                <th>Singular</th>
+                <th>Plural</th>
+                <th>Singular</th>
+                <th>Plural</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">present</td>
+                <td>1</td>
+                <td>I code</td>
+                <td>we code</td>
+                <td>I succeed</td>
+                <td>we succeed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>you code</td>
+                <td>they code</td>
+                <td>you succeed</td>
+                <td>they succeed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>he/she code</td>
+                <td>they code</td>
+                <td>he/she succeeds</td>
+                <td>they succeed</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Bonus 2 - Video player</h2>
+    <p>
+        Display a video player with control buttons.<br>Pick any file you want.
+    </p>
+    <p>
+        <b>Extra:</b><br>
+        Add a poster attribute to it.
+        Provide 2 files extension (webm and mp4) for full cross-browser compatibility.
+    </p>
+    <video controls>
+        
+        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c"
+                type="video/webm">
+    
+        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c"
+                type="video/mp4">
+    
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+</body>
+
+</html>

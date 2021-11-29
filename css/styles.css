@@ -1,0 +1,30 @@
+span    {
+    color:indigo;
+}
+
+em  {
+    color:indigo;
+}
+
+th,td   {
+    border: 1px solid black;
+    padding:1em 1em;
+    border-collapse:collapse;
+}
+video   {
+    width:40vw;
+}
+
+#simple {
+    border: 1px solid black;
+    padding:0.25em;
+}
+
+#simple td {
+    border:1px solid black;
+}
+
+.red {
+    color:red;
+    border:1px red solid;
+}
