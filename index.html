@@ -51,7 +51,8 @@
         <li>level 1.2
             <ul>
                 <li>level 2.1
-                    <ol><!-- nest ul and ol inside li (inside ul not authorized)-->
+                    <ol>
+                        <!-- nest ul and ol inside li (inside ul not authorized)-->
                         <li>level 3.1</li>
                         <li>level 3.2</li>
                         <li>level 3.3</li>
@@ -117,15 +118,19 @@
         Provide 2 files extension (webm and mp4) for full cross-browser compatibility.
     </p>
     <video controls>
-        
-        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c"
-                type="video/webm">
-    
-        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c"
-                type="video/mp4">
-    
-        Sorry, your browser doesn't support embedded videos.
+
+        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c" type="video/webm">
+
+        <source src="https://www.youtube.com/watch?v=jkbkFqbBZ3c" type="video/mp4">
+
+            Sorry, your browser doesn't support embedded videos.
     </video>
+    <h2>Bonus 3 - Audio player</h2>
+    <audio controls>
+        <source src="sounds/mysound.mp4" type="audio/mpeg">
+        <source src="sounds/mysound.webm" type="audio/webm">
+        Le texte à afficher si le son ne se charge pas
+    </audio>
 </body>
 
 </html>

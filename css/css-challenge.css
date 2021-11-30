@@ -1,3 +1,7 @@
+*   {
+    color:white;
+}
+
 #target-container   {
     width:200px;
     height:200px;
@@ -37,7 +41,6 @@ tr:nth-child(2n+0) td:nth-child(2n+1)   {
 
 #purple {
     width:300px;
-    color:white;
 }
 
 #purple > div   {
@@ -84,4 +87,22 @@ tr:nth-child(2n+0) td:nth-child(2n+1)   {
     width:100px;
     margin-left:5px;
     padding-right:5px;
+}
+
+#inline-block   {
+    width:300px;
+}
+
+#inline-block > div   {
+    width:100%;
+}
+
+#inline-block > div > div   {
+    width:24%;
+    background-color:red;
+    display:inline-block;
+}
+
+#inline-block >  div > div + div  {
+    background-color:black;
 }
