@@ -1,0 +1,87 @@
+#target-container   {
+    width:200px;
+    height:200px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+#target-content {
+    width:100px;
+    height:100px;
+    background:red;
+    border:2px dashed black;
+    margin:49px;
+    box-sizing: border-box;
+}
+
+table,
+tr,
+td  {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+tr,
+td  {
+    width:30px;
+    height:30px;
+}
+
+tr:nth-child(2n+0) td:nth-child(2n+1)   {
+    background-color:darkgoldenrod;
+}
+
+#purple *   {
+    box-sizing:border-box;
+}
+
+#purple {
+    width:300px;
+    color:white;
+}
+
+#purple > div   {
+    border:1px solid black;
+
+}
+
+#purple > div:nth-child(2n+1)   {
+    margin-bottom:5px;
+}
+
+#purple > div > div {
+    background-color:purple;
+    margin-top:5px;
+}
+
+#purple > div:nth-child(2n+1)   {
+    text-align:left;
+}
+
+#purple > div:nth-child(2n+1) > div:nth-child(2n+1) {
+    width:100px;
+    margin-right:5px;
+    padding-left:5px;
+}
+
+#purple > div:nth-child(2n+1) > div:nth-child(2n+0) {
+    width:200px;
+    margin-right:5px;
+    padding-left:5px;
+}
+
+#purple > div:nth-child(2n+0)   {
+    text-align:right;
+}
+
+#purple > div:nth-child(2n+0) > div:nth-child(2n+1) {
+    width:200px;
+    margin-left:95px;
+    padding-right:5px;
+}
+
+#purple > div:nth-child(2n+0) > div:nth-child(2n+0) {
+    width:100px;
+    margin-left:5px;
+    padding-right:5px;
+}
