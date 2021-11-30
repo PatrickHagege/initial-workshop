@@ -1,6 +1,9 @@
 *   {
     color:white;
 }
+h1,h2  {
+    color:black;
+}
 
 #target-container   {
     width:200px;
@@ -91,6 +94,7 @@ tr:nth-child(2n+0) td:nth-child(2n+1)   {
 
 #inline-block   {
     width:300px;
+    text-align:center;
 }
 
 #inline-block > div   {
@@ -103,6 +107,33 @@ tr:nth-child(2n+0) td:nth-child(2n+1)   {
     display:inline-block;
 }
 
-#inline-block >  div > div + div  {
+#inline-block >  div+div > div  {
     background-color:black;
+}
+
+#flexbox-rows   {
+    color:black;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+#flexbox-rows > div {
+    width:100%;
+    display:flex;
+    justify-content:stretch;
+    gap:2px;
+}
+
+#flexbox-rows > div > div   {
+    width:25%;
+    background-color:orange;
+}
+
+#flexbox-rows > div+div > div  {
+    width:25%;
+    background-color:green;
+    gap:2px;
 }
